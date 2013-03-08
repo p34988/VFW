@@ -22,9 +22,48 @@
 		<script scr="js/main.js" type="text/javascript"></script>
 	
 	
+		<h1>Add a bike.</h1>
+		
+		<form>
+			<fieldset>
+				<legend>Bike Information:</legend>
+				<ul>
+				
+					<li>
+						<label for="assembler">Assembled by:</label>
+				     	<input type="textfield" id="assembler" />
+					</li>
+					<li>
+						<label for="assdate">Date assembled: </label>
+						<input type="date" id="assdate">
+					
+					</li>
+					<li>
+						<label for="biketype">Bike Type:</label>
+						<select id="biketype">
+							<option value="bmx">BMX</option>
+							<option value="mtbike">Mountain Bike</option>
+							<option value="cruiser">Cruiser</option>
+							<option value="roadbike">Road bike</option>
+						</select>
+					</li>
+					<li>
+						<label for="marked">Marked:</label>
+						<ul>
+			        		<li>Yes.<input type="radio" name="marked" id="marked" value="yes" /></li>
+			        		<li>No.<input type="radio" checked name="marked" id="marked" value="no" /></li>
+		        		</ul>
+					
+					
+					</li>
+					<li>
+						<label  for="">Assembly time(in minutes):</label>
+						<input type="range" id="asstime" min="1" max="360" />
+					</li>
+				</ul>
+			</fieldset>
 	
-	
-	
+		</form>
 	
 	
 	
